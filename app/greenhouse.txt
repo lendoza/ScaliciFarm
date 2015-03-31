@@ -1,0 +1,51 @@
+<li class ="greenhouse">Greenhouse
+            <ul class ="greenhouse-dropdown">
+              <a href="plants.html">
+                <li>Plants</li>
+              </a>
+              <a href="ornaments.html">
+                <li>Lawn Ornaments</li>
+              </a>
+              <a href="holidays.html">
+                <li>Holidays</li>
+              </a>
+              <a href="firewood.html">
+                <li>Firewood</li>
+              </a>
+              <a href="seasonal.html">
+                <li>Seasonal Items</li>
+              </a>
+            </li>
+          </ul>
+</li>
+
+<li class ="mobile-greenhouse">Greenhouse <span class ="glyphicon glyphicon-chevron-down" aria-hidden"true"></span>
+              <ul class = 'mobile-greenhouse-dropdown'>
+                <a href="plants.html"><li>Plants</li></a>
+                <a href="ornaments.html"><li>Lawn Ornaments</li></a>
+                <a href="holidays.html"><li>Holidays</li></a>
+                <a href="firewood.html"><li>Firewood</li></a>
+                <a href="seasonal.html"><li>Seasonal Items</li></a>
+              </ul>
+            </li>
+
+ <div class ="our-greenhouse">
+        <h3>Our Greenhouse</h3>
+        <ul>
+          <a href="plants.html">
+            <li>Plants</li>
+          </a>
+          <a href="ornaments.html">
+            <li>Lawn Ornaments</li>
+          </a>
+          <a href="holidays.html">
+            <li>Holidays</li>
+          </a>
+          <a href="firewood.html">
+            <li>Firewood</li>
+          </a>
+          <a href="seasonal.html">
+            <li>Seasonal Items</li>
+          </a>
+        </ul>
+</div>
