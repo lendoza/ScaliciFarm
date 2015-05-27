@@ -5,16 +5,23 @@
   padding: 0.2em 0;
 }
 
-html{
-  padding:0;
+*{
   margin:0;
+  padding:0;
+}
+
+html{
   -webkit-font-smoothing: antialiased;
+  margin:0;
+  padding:0;
   min-height:100%;
+  height:100%;
 }
 
 body{
-  margin: 0 0 14em;
   height:100%;
+  margin:0;
+  padding:0;
 }
 
 ul{
@@ -27,10 +34,9 @@ a {
 }
 
 .wrapper{
-  min-height:100%;
-  margin:0 auto -14em;
-  height:auto;
-  height:100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
 }
 
 .header{
@@ -283,7 +289,9 @@ a {
   margin:auto;
   width:90%;
   max-width:60em;
-  padding-bottom:23em;
+  height:100%;
+  padding-bottom:16em;
+  overflow:auto;
 }
 
 .main-marketing p {
@@ -304,6 +312,7 @@ a {
   float:left;
   line-height:1.5em;
   text-align:center;
+  height:100%;
 
 }
 .marketing-div2, .marketing-div3{
@@ -314,14 +323,16 @@ a {
   float:left;
   line-height:1.75em;
   text-align:center;
+  height:100%;
 }
 /*About page styling*/
 
 .about{
   width:100%;
-  padding-top:1.5em;
+  padding-top:1em;
   height:100%;
   font-family:'Droid Serif', serif;
+  padding-bottom:14em;
 }
 
 .about-description {
@@ -330,7 +341,10 @@ a {
   max-width:60em;
   line-height:1.5em;
   margin:auto;
-  padding:2em;
+  padding-left:2em;
+  padding-right:2em;
+  padding-bottom:2em;
+  padding-top:1em;
 }
 .about-description h2{
   font-size:2em;
@@ -786,6 +800,336 @@ a {
  width:100%;
 }
 
+/*Plants Styling*/
+
+.plants{
+  width:100%;
+  padding-bottom:14em;
+  padding-top:2em;
+  height:100%;
+  margin:auto;
+  font-family:'Droid Serif', serif;
+}
+
+.hidden-plants{
+  width:45%;
+  float:right;
+  padding-bottom:2em;
+  display:none;
+}
+
+.plants-description {
+  margin-right:.5em;
+  margin-left:2em;
+  width:45%;
+  color:#555; 
+  line-height:1.5em;
+  float:left;
+  padding-top:1em;
+  padding-bottom:3em;
+}
+
+.plants-description ul {
+  padding-left:2em;
+  padding-top:1.5em;
+}
+
+.plants-description li {
+  list-style-type:none;
+  font-size:.9em;
+}
+
+.plants-description li:before{
+  content: '\25A0';
+  display:block;
+  left:-1em;
+  top:0;
+  color:#007E22;
+  position:relative;
+  max-width:0;
+  max-height:0;
+}
+.plants-description h2{
+  font-size:2em;
+  color:#6e4b26;
+}
+.plants-description p{
+  padding-top:1.5em;
+  font-size:.9em;
+  color:#555;
+}
+.plants-description a {
+  color:#007E22;
+}
+
+.plants-images{
+  width:50%;
+  float:right;
+  padding-right:2em;
+  padding-bottom:3em;
+  padding-top:2.25em;
+}
+.plants-images img{
+ margin:auto;
+ float:right;
+ width:100%;
+}
+
+.plants-rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 90%;
+  padding: 0;
+  margin:2em auto;
+  -webkit-cursor:grabbing;
+  }
+
+.plants-rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  }
+
+.plants-rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.plants-rslides img {
+  display: block;
+  max-height:30em;
+  height:auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/*Statues Styling*/
+
+.statues{
+  width:100%;
+  padding-bottom:14em;
+  padding-top:2em;
+  height:100%;
+  margin:auto;
+  font-family:'Droid Serif', serif;
+}
+
+.hidden-statues{
+  width:45%;
+  float:right;
+  padding-bottom:2em;
+  display:none;
+}
+
+.statues-description {
+  margin-right:.5em;
+  margin-left:2em;
+  width:45%;
+  color:#555; 
+  line-height:1.5em;
+  float:left;
+  padding-top:1em;
+  padding-bottom:3em;
+}
+
+.statues-description ul {
+  padding-left:2em;
+  padding-top:1.5em;
+}
+
+.statues-description li {
+  list-style-type:none;
+  font-size:.9em;
+}
+
+.statues-description li:before{
+  content: '\25A0';
+  display:block;
+  left:-1em;
+  top:0;
+  color:#007E22;
+  position:relative;
+  max-width:0;
+  max-height:0;
+}
+.statues-description h2{
+  font-size:2em;
+  color:#6e4b26;
+}
+.statues-description p{
+  padding-top:1.5em;
+  font-size:.9em;
+  color:#555;
+}
+.statues-description a {
+  color:#007E22;
+}
+
+.statues-images{
+  width:50%;
+  float:right;
+  padding-right:2em;
+  padding-bottom:3em;
+  padding-top:2.25em;
+}
+.statues-images img{
+ margin:auto;
+ float:right;
+ width:100%;
+}
+
+.statues-rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 90%;
+  padding: 0;
+  margin:2em auto;
+  -webkit-cursor:grabbing;
+  }
+
+.statues-rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  }
+
+.statues-rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.statues-rslides img {
+  display: block;
+  max-height:30em;
+  height:auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/*Statues Styling*/
+
+.seasonal{
+  width:100%;
+  padding-bottom:14em;
+  padding-top:2em;
+  height:100%;
+  margin:auto;
+  font-family:'Droid Serif', serif;
+}
+
+.hidden-seasonal{
+  width:45%;
+  float:right;
+  padding-bottom:2em;
+  display:none;
+}
+
+.seasonal-description {
+  margin-right:.5em;
+  margin-left:2em;
+  width:45%;
+  color:#555; 
+  line-height:1.5em;
+  float:left;
+  padding-top:1em;
+  padding-bottom:3em;
+}
+
+.seasonal-description ul {
+  padding-left:2em;
+  padding-top:1.5em;
+}
+
+.seasonal-description li {
+  list-style-type:none;
+  font-size:.9em;
+}
+
+.seasonal-description li:before{
+  content: '\25A0';
+  display:block;
+  left:-1em;
+  top:0;
+  color:#007E22;
+  position:relative;
+  max-width:0;
+  max-height:0;
+}
+.seasonal-description h2{
+  font-size:2em;
+  color:#6e4b26;
+}
+.seasonal-description p{
+  padding-top:1.5em;
+  font-size:.9em;
+  color:#555;
+}
+.seasonal-description a {
+  color:#007E22;
+}
+
+.seasonal-images{
+  width:50%;
+  float:right;
+  padding-right:2em;
+  padding-bottom:3em;
+  padding-top:2.25em;
+}
+.seasonal-images img{
+ margin:auto;
+ float:right;
+ width:100%;
+}
+
+.seasonal-rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 90%;
+  padding: 0;
+  margin:2em auto;
+  -webkit-cursor:grabbing;
+  }
+
+.seasonal-rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  }
+
+.seasonal-rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.seasonal-rslides img {
+  display: block;
+  max-height:30em;
+  height:auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
 /*Contact styling*/
 
 .contact{
@@ -794,6 +1138,7 @@ a {
   height:100%;
   margin:auto;
   font-family:'Droid Serif', serif;
+  padding-bottom:14em
 }
 
 .contact a {
@@ -833,28 +1178,45 @@ a {
   font-size:.8em;
 }
 
+.google-map{
+  margin:auto;
+  width:90%;
+  padding-bottom:1.25em;
+}
+
+.google-map iframe, object, embed{
+  max-width: 100%;
+  width:100%;
+}
+
+
+/*Footer Styling*/
 
 .footer{
   width:100%;
   height:14em;
   background-color:#F5F0E7;
   border-top:4px solid #E6DAC3;
+  position:relative;
   clear:both;
-  bottom:0;
+  margin-top:-14em;
+  
 }
 
 .inner-footer {
   width:100%;
   font-family:'Droid Serif', sans-serif;
+  margin-bottom:0;
+  padding-bottom:0;
 }
-.inner-footer div{
+.contact-us, .our-services, .our-greenhouse{
   width:10em;
   margin-left:1em;
   margin-right:.5em;
   float:left;
   margin-top:1em;
 }
-.inner-footer div:last-child{
+.contact-us{
   float:right;
 }
 .inner-footer div li{
@@ -876,15 +1238,16 @@ a {
 
 .copyright{
   width:100%;
-  float:left;
+  clear:both;
   text-align:center;
   font-size:.8em;
-  margin-top:.5em;
-  padding:.5em;
+  margin:auto;
+  padding-top:1.25em;
 }
 
 @media all and (min-width:1280px){
-  .mulch, .landscaping, .concrete, .tree, .maintenence, .contact{
+  .mulch, .landscaping, .concrete, .tree, .maintenence, .contact, .plants, .statues,
+  .seasonal{
     max-width:80em;
   }
 
@@ -900,10 +1263,6 @@ a {
 }
 
 @media all and (max-width:1035px){
-
-  .main-marketing{
-    padding-bottom:4em;
-  }
   .marketing-div1, .marketing-div2{
     width:45%;
     margin-bottom:2.5em;
@@ -936,7 +1295,8 @@ a {
   .header .main-nav{
     margin:auto;
     float:none;
-    width:20em;
+    width:28em;
+    padding-left:.75em;
   }
   .header .main-nav .services ul{
     margin-top:.22em;
@@ -944,24 +1304,23 @@ a {
   .header .phone {
     display:none;
   }
-  .mulch, .landscaping, .concrete, .asphalt, .tree, .maintenence, .contact{
-    padding-bottom:0;
-  }
   .mulch-description, .landscaping-description, .concrete-description, .asphalt-description, 
-  .tree-description, .maintenence-description{
+  .tree-description, .maintenence-description, .plants-description, .statues-description,
+  .seasonal-description{
     float:none;
     margin:auto;
     width:77.5%;
     padding-bottom:1.5em;
   }
   .mulch-description h2, .landscaping-description h2, .concrete-description h2, 
-  .asphalt-description h2, .tree-description h2, .maintenence-description h2{
+  .asphalt-description h2, .tree-description h2, .maintenence-description h2,
+  .plants-description h2, .statues-description h2, .seasonal-description h2{
   text-align:center;
   line-height:1.25em;
   }
 
   .mulch-images, .landscaping-images, .concrete-images, .asphalt-images, .tree-images,
-  .maintenence-images {
+  .maintenence-images, .plants-images, .statues-images, .seasonal-images{
     display:none;
   }
 
@@ -972,8 +1331,8 @@ a {
     width:55%;
   }
 
-  .hidden-maintenence{
-     display:block;
+  .hidden-maintenence, .hidden-plants, .hidden-statues, .hidden-seasonal{
+    display:block;
     float:none;
     margin:auto;
     width:90%;
@@ -986,7 +1345,8 @@ a {
     width:80%;
   }
   .hidden-mulch img, .hidden-landscaping img, .hidden-concrete img, .hidden-asphalt img,
-  .hidden-tree img, .hidden-maintenence img{
+  .hidden-tree img, .hidden-maintenence img, .hidden-plants img, .hidden-statues img,
+  .hidden-seasonal img{
     width:100%;
     margin:auto;
     float:none;
@@ -1002,8 +1362,21 @@ a {
   }
 }
 @media all and (max-width:570px){
+  
+  .wrapper{
+    margin:0 auto -30em;
+  }
   .footer{
-    height:21em;
+    height:30em;
+  }
+
+  .asphalt, .plants, .statues, .seasonal {
+    padding-bottom:16em;
+  }
+
+  .main-marketing, .about, .mulch, .landscaping, .concrete, .tree, 
+  .maintenence, .contact{
+    padding-bottom:31em;
   }
   .inner-footer div{
   float:none;

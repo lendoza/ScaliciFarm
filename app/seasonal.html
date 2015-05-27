@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>Scalici Farm & Greenhouses | Landscaping</title>
+    <title>Scalici Farm & Greenhouses | Seasonal Items</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale:1.0">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -117,44 +117,52 @@
 <!--END cell-main-nav-->
 </div>
 
-<div class ="landscaping">
+<div class ="seasonal">
       
-      <div class ="landscaping-inside">
+      <div class ="seasonal-inside">
 
-        <div class ="hidden-landscaping">
-          <img src="images/landscaping.jpg"/>
+        <div class ="hidden-seasonal">
+          <ul class="seasonal-rslides">
+            <li><img src="images/seasonal/firewood.jpg" alt=""></li>
+            <li><img src="images/seasonal/shrooms.jpg" alt=""></li>
+            <li><img src="images/seasonal/signs.jpg" alt=""></li>
+            <li><img src="images/seasonal/party.jpg" alt=""></li>
+            <li><img src="images/seasonal/posts.jpg" alt=""></li>
+          </ul>
         </div>
         
-        <div class ="landscaping-description">
-        <h2>Landscaping</h2>
+        <div class ="seasonal-description">
+        
+        <h2>Seasonal Items</h2>
 
-        <p>Scalici Farm & Greenhouses' expert team of landscape architects are here to help bring your vision to life. We start with a one on one consultation to discuss what you have in mind for the project. From there we draw up a proposal together in order to best accommodate your needs.</p>
-
-        <p>When building a personalized landscape design there are a few things to consider:</p>
+        <p>Scalici Farm & Greenhouses has the items you need 365 days of the year! We carry a variety of seasonal items including:</p>
 
 
         <ul>
-          <li>Space: How much space do we have to work with? Is it a residential or commercial project?</li>
-          <li>Plants: Would you like to include shrubs, mums, tree, and more? What coloring would look best for the area?<li>
-          <li>Lifestyle:  What will the surrounding space be used for? Will you be having backyard events or will the space be used for more casual endeavors?</li>
+          <li>Firewood (Bundles & Chords)</li>
+          <li>Lawn Ornaments</li>
+          <li>Signs</li>
+          <li>Party Decorations</li>
         </ul>
 
-        <p>At the end of design process, we make a computer model of what the landscape will roughly look like and finalize the proposal for installation. If you are satisfied with the proposal, our team gets to work right away to provide you with the design of your dreams.</p>
-
-        <p>If you would like to schedule a consultation or have more questions about the landscaping process, please feel free to visit us at the farm: <a href ="https://goo.gl/maps/fjaIQ">634 Colts Neck Road Freehold, NJ</a> or contact us at <a href="tel://+17328639022">1-732-863-9022</a></p>
+        <p>To learn more about the seasonal items we offer, visit the farm at <a href ="https://goo.gl/maps/fjaIQ">634 Colts Neck Road Freehold, NJ</a> or call us at <a href="tel://+17328639022">1-732-863-9022</a></p>
 
         </div>
 
-      <div class ="landscaping-images">
-        <img src="images/landscaping.jpg"/>
+      <div class ="seasonal-images">
+         <ul class="seasonal-rslides">
+            <li><img src="images/seasonal/firewood.jpg" alt=""></li>
+            <li><img src="images/seasonal/shrooms.jpg" alt=""></li>
+            <li><img src="images/seasonal/signs.jpg" alt=""></li>
+            <li><img src="images/seasonal/party.jpg" alt=""></li>
+            <li><img src="images/seasonal/posts.jpg" alt=""></li>
+        </ul>
       </div>
   
-   <!--END landscaping-inside-->
+   <!--END seasonal-inside-->
     </div>
- <!--END landscaping-->
+ <!--END seasonal-->
   </div>
-<!--END wrapper-->
-</div>
 
 <div class ="footer">
  
@@ -249,7 +257,29 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src="scripts/responsiveslides.js"></script>
         <!-- endbuild -->
+
+        <script>
+          $(".seasonal-rslides").responsiveSlides({
+            auto: true, // Boolean: Animate automatically, true or false
+            speed: 1500, // Integer: Speed of the transition, in milliseconds
+            timeout: 6000, // Integer: Time between slide transitions, in milliseconds
+            pager: false, // Boolean: Show pager, true or false
+            nav: false,    // Boolean: Show navigation, true or false
+            random: false, // Boolean: Randomize the order of the slides, true or false
+            pause: true, // Boolean: Pause on hover, true or false
+            pauseControls: true, // Boolean: Pause when hovering controls, true or false
+            prevText: "<", // String: Text for the "previous" button
+            nextText: ">",  // String: Text for the "next" button
+            maxwidth: "", // Integer: Max-width of the slideshow, in pixels
+            navContainer: "",  // Selector: Where controls should be appended to, default is after the 'ul'
+            manualControls: "",  // Selector: Declare custom pager navigation
+            namespace: "rslides", // String: Change the default namespace used
+            before: function(){}, // Function: Before callback
+            after: function(){}   // Function: After callback
+          });
+      </script>
 </body>
 
 </html>
