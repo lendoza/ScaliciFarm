@@ -5,7 +5,7 @@ scalicifarm.co
 ## Technology
 * HTML5
 * CSS3
-* Jquery Slideshows
+* Jquery
 
 ## Contact
 
