@@ -1,5 +1,15 @@
-# ScaliciFarm
+scalicifarm.co
+======
+**scalicifarm.co** is a contract site built for Scalici Farm & Greenhouses. The goal of the site is to inform customers of business hours, location, services provided and merchandise available for purchase.
 
-A full scale website developed and designed for a Freehold, NJ business: Scalici Farm & Greenhouses. 
+## Technology
+* HTML5
+* CSS3
+* Jquery Slideshows
 
-The website is the second contract site I have developed and utilizes HTML/CSS/jQuery/Javascript.
+## Contact
+
+* Homepage: http://leonardlabita.com
+* e-mail: labita.leonard@gmail.com
+* Instagram: https://instagram.com/lendoza
+
